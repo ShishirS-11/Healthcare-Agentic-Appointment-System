@@ -1,0 +1,1 @@
+"""Validate structured agent outputs."""
