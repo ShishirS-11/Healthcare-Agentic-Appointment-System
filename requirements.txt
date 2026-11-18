@@ -1,17 +1,43 @@
-langgraph
+
+# AI and Agent Frameworks
 langchain
+langchain-core
+langchain-community
 langchain-ollama
-ollama
+langgraph
+langgraph-checkpoint-sqlite
+
+# Backend API
 fastapi
 uvicorn[standard]
+python-multipart
+
+# Frontend
 streamlit
+requests
+
+# Database and Migrations
+sqlalchemy
+alembic
+
+# Data Validation and Configuration
 pydantic
 pydantic-settings
-sqlalchemy
+python-dotenv
+email-validator
+
+# Medical Research
+biopython
+
+# Authentication and Security
 python-jose[cryptography]
 passlib[bcrypt]
-python-multipart
+bcrypt
+
+# Testing
 pytest
+pytest-cov
 httpx
-python-dotenv
-requests
+
+# Utilities
+pandas
