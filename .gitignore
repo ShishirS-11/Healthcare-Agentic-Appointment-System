@@ -1,16 +1,28 @@
-__pycache__/
-*.py[cod]
-.venv/
-venv/
-.pytest_cache/
+# Environment and secrets
 .env
 .env.*
 !.env.example
-data/*.db
-data/*.sqlite
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
 logs/*
 !logs/.gitkeep
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
 .vscode/
 .idea/
-.DS_Store
-Thumbs.db
